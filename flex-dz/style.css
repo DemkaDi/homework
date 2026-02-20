@@ -1,0 +1,44 @@
+.header-container {
+    max-width: 1320px;
+    padding: 15px 15px;
+    margin: 0 auto;
+    min-width: 250px;
+    cursor: pointer;
+}
+
+.header {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+  }
+
+html {
+    font-family: serif;
+    border-bottom: solid 2px rgb(134, 129, 129);
+    
+}
+body * {
+    box-sizing: border-box;
+}
+.ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.block {
+   background-color: black;
+    width: 40px;
+    height: 40px;
+}
+.a {
+    text-decoration: none;
+    color: black;
+}
+.a2 {
+    color: black;
+}
